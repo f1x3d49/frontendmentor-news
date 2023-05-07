@@ -14,6 +14,10 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      backgroundImage: {
+        "mobile-image": "url('/src/images/image-web-3-mobile.jpg')",
+        "desktop-image": "url('/src/images/image-web-3-desktop.jpg')",
+      },
     },
   },
   plugins: [],
