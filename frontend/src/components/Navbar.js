@@ -5,7 +5,7 @@ import { ReactComponent as Close } from "../images/icon-menu-close.svg";
 import Logo from "../images/logo.svg";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
 
   const handleNav = () => {
     setNav(!nav);
