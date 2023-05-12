@@ -2,7 +2,7 @@ import React from "react";
 
 const NewsComponent = () => {
   return (
-    <div className="flex flex-col gap-8 p-5 mt-8 max-w-auto h-auto bg-[#00001a]">
+    <div className="flex flex-col gap-8 p-5 mt-8 max-w-auto h-auto bg-[#00001a] md:col-span-1 md:col-start-3">
       <h1 className="text-3xl text-[#e9ab53] font-bold">New</h1>
       <div className="border-b border-b-[#5d5f79]">
         <h1 className="text-lg text-[#fffdfa] font-bold">
